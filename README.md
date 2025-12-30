@@ -17,7 +17,7 @@ The application is built with FastAPI and uses Python's standard data structures
 
 ## System Diagram
 ```mermaid
-graph TD
+flowchart TD
     A[Client] --> B{FastAPI Server};
     
     subgraph "API Endpoints"
